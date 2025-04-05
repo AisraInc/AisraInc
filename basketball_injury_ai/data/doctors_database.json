@@ -1,0 +1,106 @@
+{
+    "doctors": [
+        {
+            "id": "D001",
+            "name": "Dr. Sarah Johnson",
+            "specialties": ["shoulder", "elbow", "sports medicine"],
+            "experience": 15,
+            "rating": 4.9,
+            "reviews": 245,
+            "hospital": "SportsMed Center",
+            "location": "Downtown Medical Complex",
+            "certifications": ["Board Certified in Orthopedic Surgery", "Sports Medicine Fellowship"],
+            "available_days": ["Monday", "Wednesday", "Friday"],
+            "languages": ["English", "Spanish"],
+            "contact": {
+                "phone": "555-0101",
+                "email": "dr.johnson@sportsmed.com"
+            }
+        },
+        {
+            "id": "D002",
+            "name": "Dr. Michael Chen",
+            "specialties": ["knee", "ankle", "sports rehabilitation"],
+            "experience": 12,
+            "rating": 4.8,
+            "reviews": 189,
+            "hospital": "Elite Sports Clinic",
+            "location": "Westside Medical Center",
+            "certifications": ["Orthopedic Surgery", "Sports Medicine"],
+            "available_days": ["Tuesday", "Thursday", "Saturday"],
+            "languages": ["English", "Mandarin"],
+            "contact": {
+                "phone": "555-0102",
+                "email": "dr.chen@elitesports.com"
+            }
+        },
+        {
+            "id": "D003",
+            "name": "Dr. James Williams",
+            "specialties": ["spine", "back", "neck"],
+            "experience": 20,
+            "rating": 4.7,
+            "reviews": 312,
+            "hospital": "Spine & Sports Institute",
+            "location": "Central Hospital",
+            "certifications": ["Spine Surgery", "Pain Management"],
+            "available_days": ["Monday", "Tuesday", "Thursday"],
+            "languages": ["English"],
+            "contact": {
+                "phone": "555-0103",
+                "email": "dr.williams@spineinstitute.com"
+            }
+        },
+        {
+            "id": "D004",
+            "name": "Dr. Emily Rodriguez",
+            "specialties": ["shoulder", "sports medicine", "rehabilitation"],
+            "experience": 10,
+            "rating": 4.9,
+            "reviews": 156,
+            "hospital": "Advanced Sports Medicine",
+            "location": "Eastside Medical Plaza",
+            "certifications": ["Sports Medicine", "Physical Therapy"],
+            "available_days": ["Wednesday", "Friday", "Saturday"],
+            "languages": ["English", "Spanish"],
+            "contact": {
+                "phone": "555-0104",
+                "email": "dr.rodriguez@advancedsports.com"
+            }
+        },
+        {
+            "id": "D005",
+            "name": "Dr. Robert Kim",
+            "specialties": ["knee", "ankle", "foot"],
+            "experience": 18,
+            "rating": 4.8,
+            "reviews": 278,
+            "hospital": "Joint & Sports Center",
+            "location": "North Medical Complex",
+            "certifications": ["Orthopedic Surgery", "Foot & Ankle Surgery"],
+            "available_days": ["Monday", "Wednesday", "Friday"],
+            "languages": ["English", "Korean"],
+            "contact": {
+                "phone": "555-0105",
+                "email": "dr.kim@jointsports.com"
+            }
+        },
+        {
+            "id": "D006",
+            "name": "Dr. Lisa Thompson",
+            "specialties": ["physical therapy", "sports rehabilitation", "shoulder"],
+            "experience": 14,
+            "rating": 4.7,
+            "reviews": 198,
+            "hospital": "Recovery Sports Clinic",
+            "location": "South Medical Center",
+            "certifications": ["Physical Therapy", "Sports Rehabilitation"],
+            "available_days": ["Tuesday", "Thursday", "Saturday"],
+            "languages": ["English"],
+            "contact": {
+                "phone": "555-0106",
+                "email": "dr.thompson@recovery.com"
+            }
+        }
+    ]
+}

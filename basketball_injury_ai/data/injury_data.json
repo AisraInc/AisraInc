@@ -1,0 +1,94 @@
+{
+    "shoulder": {
+        "questions": [
+            "Is there immediate pain after a specific movement?",
+            "Can you raise your arm above your head?",
+            "Is there any swelling?",
+            "Do you feel a clicking sound when moving?",
+            "Is the pain sharp or dull?",
+            "Did you hear a pop when the injury occurred?",
+            "Is there visible bruising?",
+            "Does the pain increase at night?",
+            "Is there muscle weakness?"
+        ],
+        "conditions": {
+            "rotator_cuff_tear": {
+                "symptoms": ["immediate pain", "limited mobility", "weakness"],
+                "weight": 0.8,
+                "description": "A tear in the muscles and tendons that surround the shoulder joint",
+                "recommendations": ["Rest", "Ice", "Immediate medical attention", "Avoid overhead movements"]
+            },
+            "shoulder_dislocation": {
+                "symptoms": ["immediate pain", "visible deformity", "inability to move"],
+                "weight": 0.9,
+                "description": "The ball of the shoulder has been forced out of its socket",
+                "recommendations": ["Immobilize joint", "Seek immediate medical attention", "Apply ice"]
+            },
+            "ac_joint_sprain": {
+                "symptoms": ["pain on top of shoulder", "limited mobility", "swelling"],
+                "weight": 0.7,
+                "description": "Injury to the ligaments connecting the collarbone to the shoulder blade",
+                "recommendations": ["Rest", "Ice", "Compression", "Pain management"]
+            }
+        }
+    },
+    "knee": {
+        "questions": [
+            "Did you hear a popping sound?",
+            "Is there swelling in the knee?",
+            "Can you bear weight on the affected leg?",
+            "Does your knee feel unstable?",
+            "Is the pain located at the front of the knee?",
+            "Did the injury occur during a jumping or landing motion?",
+            "Does your knee lock or catch?",
+            "Is there visible bruising?",
+            "Can you fully straighten your leg?"
+        ],
+        "conditions": {
+            "acl_tear": {
+                "symptoms": ["popping sound", "immediate swelling", "instability"],
+                "weight": 0.9,
+                "description": "Tear of the Anterior Cruciate Ligament, a key stabilizing ligament in the knee",
+                "recommendations": ["RICE protocol", "Immediate medical attention", "Avoid weight bearing"]
+            },
+            "meniscus_tear": {
+                "symptoms": ["gradual swelling", "pain when twisting", "clicking"],
+                "weight": 0.8,
+                "description": "Tear in the cartilage that cushions the knee joint",
+                "recommendations": ["Rest", "Ice", "Compression", "Avoid twisting movements"]
+            },
+            "patellar_tendinitis": {
+                "symptoms": ["pain during jumping", "anterior knee pain", "gradual onset"],
+                "weight": 0.6,
+                "description": "Inflammation of the tendon connecting the kneecap to the shinbone",
+                "recommendations": ["Rest", "Ice", "Physical therapy exercises", "Pain management"]
+            }
+        }
+    },
+    "ankle": {
+        "questions": [
+            "Did the injury occur while landing or turning?",
+            "Is there immediate swelling?",
+            "Can you put weight on the affected foot?",
+            "Is there visible bruising?",
+            "Did you hear a crack or pop?",
+            "Is the pain constant?",
+            "Can you move your ankle in all directions?",
+            "Is there tenderness when touching the ankle bones?"
+        ],
+        "conditions": {
+            "ankle_sprain": {
+                "symptoms": ["immediate pain", "swelling", "difficulty walking"],
+                "weight": 0.8,
+                "description": "Stretching or tearing of ankle ligaments",
+                "recommendations": ["RICE protocol", "Ankle support", "Gradual return to activity"]
+            },
+            "high_ankle_sprain": {
+                "symptoms": ["pain above ankle", "difficulty walking", "instability"],
+                "weight": 0.85,
+                "description": "Injury to the ligaments that connect the tibia and fibula",
+                "recommendations": ["Immediate medical attention", "Immobilization", "Professional evaluation"]
+            }
+        }
+    }
+}

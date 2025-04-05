@@ -1,0 +1,38 @@
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.question-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-group-toggle {
+    margin-top: 0.5rem;
+}
+
+.btn-group-toggle label {
+    width: 50%;
+}
+
+.diagnosis {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.recommendations ul li {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.human-body {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-top: 1rem;
+    }
+}
