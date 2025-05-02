@@ -1,0 +1,25 @@
+# =========================
+# React Native / Node.js
+# =========================
+SencyDemo/node_modules/
+SencyDemo/android/
+SencyDemo/ios/
+SencyDemo/*.log
+# Metro cache
+.SencyDemo/.cache/
+
+# =========================
+# Python
+# =========================
+backendnew/venv/
+backendnew/__pycache__/
+backendnew/*.py[cod]
+backendnew/.env
+
+backend
+
+# =========================
+# Editor / OS junk
+# =========================
+.vscode/
+.DS_Store
